@@ -1523,7 +1523,7 @@ span {
 @media (max-width: 767px) {
   .service-detail-wrapper {
     height: unset;
-    padding: 24px 0px;
+    padding: 40px 0px;
     background-image: none;
     background: linear-gradient(262deg, rgba(255, 197, 77, 0.8) -11.99%, rgba(106, 92, 161, 0.8) 29.33%, rgba(46, 19, 152, 0.8) 73.52%);
   }
@@ -2332,7 +2332,7 @@ span {
 }
 @media (max-width: 767px) {
   .cta-banner-2 .cta-wrapper-2 {
-    padding: 15px 15px;
+    padding: 30px 30px;
     gap: 25px;
   }
 }
