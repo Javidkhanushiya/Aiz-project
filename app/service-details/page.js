@@ -125,9 +125,9 @@ export default function ServiceDetails() {
                                 </p>
                             </div>
                             {isMobile ? (
-                                       <ServiceDetailForm />
+                                <ServiceDetailForm />
                             ) : (
-                         
+
                                 <div className="service-detail-wrapper-form">
                                     <h2 className="mb-3"> Let’s <span>Connect</span> With Us</h2>
                                     <form action="#" className="row gap-3 mx-0">
@@ -372,10 +372,7 @@ export default function ServiceDetails() {
                                 <h3>
                                     Stay Connected With <br /> Cutting Edge IT
                                 </h3>
-                                <Link href="contact.html" className="theme-btn bg-white">
-                                    get A Quote
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height={'17px'} width={"17px"} ><path d="M429.8 273l17-17-17-17L276.2 85.4l-17-17-33.9 33.9 17 17L354.9 232 24 232 0 232l0 48 24 0 330.8 0L242.2 392.6l-17 17 33.9 33.9 17-17L429.8 273z" /></svg>
-                                </Link>
+                                <a class="theme-btn" href="/contact"><span>Get A Quote<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="17px" width="17px"><path d="M429.8 273l17-17-17-17L276.2 85.4l-17-17-33.9 33.9 17 17L354.9 232 24 232 0 232l0 48 24 0 330.8 0L242.2 392.6l-17 17 33.9 33.9 17-17L429.8 273z"></path></svg></span></a>
                             </div>
                         </div>
                     </div>

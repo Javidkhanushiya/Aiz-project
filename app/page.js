@@ -14,6 +14,8 @@ import Service1 from "@/components/sections/Service1"
 import Team1 from "@/components/sections/Team1"
 import Testimonial1 from "@/components/sections/Testimonial1"
 import "/public/assets/css/main.css"
+import "/public/assets/css/service-details.css"
+
 export default function Home() {
 
     return (
