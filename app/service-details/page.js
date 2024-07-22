@@ -104,12 +104,12 @@ export default function ServiceDetails() {
 
             <Layout headerStyle={1} footerStyle={5}>
                 <section className="service-detail-wrapper">
-                    {/* <div className="bg-1">
+                    <div className="bg-1">
                         <h2>PHP</h2>
-                    </div> */}
-                    {/* <div className="bg-4">
+                    </div>
+                    <div className="bg-4">
                         <img loading="lazy" src="/assets/img/aiz-logo.png" alt="image" />
-                    </div> */}
+                    </div>
                     <div className="container">
                         <div className="service-detail-wrapper-main">
                             <div className="service-detail-wrapper-contant">
@@ -124,7 +124,17 @@ export default function ServiceDetails() {
                                     Have Been Satisfying Clients By Creating Unique PHP Solutions Addressing Their Requirements.
                                 </p>
                             </div>
-                            {isMobile ? (
+                            <div className="service-detail-wrapper-form">
+                                    <h2 className="mb-3"> Let’s <span>Connect</span> With Us</h2>
+                                    <form action="#" className="row gap-3 mx-0">
+                                        <input type="text" placeholder="Full Name" className="col-12 cst-input" />
+                                        <input type="email" placeholder="Email" className="col-12 cst-input" />
+                                        <input type="text" placeholder="Services" className="col-12 cst-input" />
+                                        <textarea placeholder="Description" className="col-12 cst-input"></textarea>
+                                        <Link href="#">Submit</Link>
+                                    </form>
+                                </div>
+                            {/* {isMobile ? (
                                 <ServiceDetailForm />
                             ) : (
 
@@ -138,7 +148,7 @@ export default function ServiceDetails() {
                                         <Link href="#">Submit</Link>
                                     </form>
                                 </div>
-                            )}
+                            )} */}
                         </div>
                     </div>
                 </section>
