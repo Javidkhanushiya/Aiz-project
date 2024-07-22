@@ -163,10 +163,10 @@ export default function ServiceDetails() {
                                     slidesPerView={isMobile ? 1 : 3} // Example to change slidesPerView based on screen size
                                     navigation={{ nextEl: ".array-next", prevEl: ".array-prev" }}
                                     modules={[Navigation, Autoplay]}
-                                    autoplay={{
-                                        delay: 3000, // Delay between transitions in milliseconds (3000ms = 3 seconds)
-                                        disableOnInteraction: false, // Continue autoplay after user interactions (e.g., swiping)
-                                    }}
+                                    // autoplay={{
+                                    //     delay: 3000, // Delay between transitions in milliseconds (3000ms = 3 seconds)
+                                    //     disableOnInteraction: false, // Continue autoplay after user interactions (e.g., swiping)
+                                    // }}
                                 >
                                     {expertiseItems.map((item, index) => (
                                         <SwiperSlide key={index}>
