@@ -104,9 +104,9 @@ export default function ServiceDetails() {
 
             <Layout headerStyle={1} footerStyle={5}>
                 <section className="service-detail-wrapper">
-                    <div className="bg-1">
+                    {/* <div className="bg-1">
                         <h2>PHP</h2>
-                    </div>
+                    </div> */}
                     {/* <div className="bg-4">
                         <img loading="lazy" src="/assets/img/aiz-logo.png" alt="image" />
                     </div> */}
