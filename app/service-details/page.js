@@ -131,7 +131,7 @@ export default function ServiceDetails() {
                                         <input type="email" placeholder="Email" className="col-12 cst-input" />
                                         <input type="text" placeholder="Services" className="col-12 cst-input" />
                                         <textarea placeholder="Description" className="col-12 cst-input"></textarea>
-                                        {/* <Link href="#">Submit</Link> */}
+                                        <Link href="#">Submit</Link>
                                     </form>
                                 </div>
                             {/* {isMobile ? (
