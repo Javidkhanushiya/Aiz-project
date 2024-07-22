@@ -107,14 +107,14 @@ export default function ServiceDetails() {
                     <div className="bg-1">
                         <h2>PHP</h2>
                     </div>
-                    <div className="bg-4">
+                    {/* <div className="bg-4">
                         <img loading="lazy" src="/assets/img/aiz-logo.png" alt="image" />
-                    </div>
+                    </div> */}
                     <div className="container">
                         <div className="service-detail-wrapper-main">
                             <div className="service-detail-wrapper-contant">
                                 <h1>PHP Development</h1>
-                                {/* <p>AIZ Infotechs Provides Expert PHP Development Services That Help You Leverage The Optimum Benefit
+                                <p>AIZ Infotechs Provides Expert PHP Development Services That Help You Leverage The Optimum Benefit
                                     Of PHP Web Development In Achieving Enterprise-Level Goals. We Come Second To None When It Comes
                                     To Delivering Highly Functional PHP Solutions Like PHP Application Development, PHP CMS
                                     Development, And More.
@@ -122,7 +122,7 @@ export default function ServiceDetails() {
                                     Introduction. We Have A Team Of Experienced PHP Developers Who Are Enthusiastic About PHP And
                                     Have In-Depth Knowledge Of All Its Versions. Our Team Members Have Extensive Work Experience And
                                     Have Been Satisfying Clients By Creating Unique PHP Solutions Addressing Their Requirements.
-                                </p> */}
+                                </p>
                             </div>
                             {isMobile ? (
                                 <ServiceDetailForm />
