@@ -1,0 +1,25 @@
+{
+    "name": "infotek",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "sass": "sass --watch public/assets/scss/main.scss:public/assets/css/main.css public/assets/scss/_service-details.scss:public/assets/css/service-details.css",
+        "minify-css": "postcss public/assets/css/*.css --use cssnano --dir public/assets/css/minified"
+    },
+    "dependencies": {
+        "@vercel/speed-insights": "^1.0.12",
+        "next": "14.1.4",
+        "react": "18.2.0",
+        "react-countup": "^6.5.3",
+        "react-dom": "18.2.0",
+        "react-modal-video": "^2.0.1",
+        "react-scroll-trigger": "^0.6.14",
+        "sass": "^1.72.0",
+        "swiper": "^11.1.0",
+        "wowjs": "^1.1.3"
+    }
+}

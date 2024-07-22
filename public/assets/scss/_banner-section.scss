@@ -1,0 +1,186 @@
+.service-detail-wrapper {
+	background: linear-gradient(262deg,
+			rgba(255, 197, 77, 0.80) -11.99%,
+			rgba(106, 92, 161, 0.80) 29.33%,
+			rgba(46, 19, 152, 0.80) 73.52%);
+	position: relative;
+	padding: 100px 0px;
+	height: 682px;
+	overflow: hidden;
+
+	@include breakpoint (max-md) {
+		height: unset;
+		padding: 50px 0px;
+	}
+
+	.bg-1 {
+		position: absolute;
+		left: 25px;
+		top: 0px;
+		z-index: 1;
+
+		h2 {
+			color: #543D9A;
+			font-size: 360px;
+			font-style: normal;
+			font-weight: 900;
+			line-height: normal;
+			opacity: 0.4;
+
+			@include breakpoint (max-md) {
+				font-size: 110px;
+			}
+		}
+	}
+
+	.bg-4 {
+		position: absolute;
+		left: 710px;
+		top: 460px;
+
+		@include breakpoint (max-md) {
+			left: 10px;
+			top: 460px;
+		}
+	}
+
+	.bg-5 {
+		position: absolute;
+		left: 0px;
+		bottom: 0px;
+	}
+
+	.bg-7 {
+		position: absolute;
+		right: 0px;
+		bottom: 0px;
+
+		@include breakpoint (max-md) {
+			display: none;
+		}
+	}
+
+	.bg-8 {
+		position: absolute;
+		right: 0px;
+		bottom: 0px;
+
+		@include breakpoint (max-md) {
+			display: none;
+		}
+	}
+
+	.service-detail-wrapper-main {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		position: relative;
+		z-index: 10;
+		gap: 100px;
+
+		@include breakpoint (max-md) {
+			flex-wrap: wrap;
+			gap: 50px;
+		}
+
+		.service-detail-wrapper-contant {
+
+			@include breakpoint (max-xl) {
+				width: 50%;
+			}
+
+			@include breakpoint (max-md) {
+				width: 100%;
+			}
+
+			h3 {
+				color: #FFF;
+				font-size: 30px;
+				font-style: normal;
+				font-weight: 600;
+				line-height: 28px;
+				margin-bottom: 25px;
+			}
+
+			p {
+				color: #FFF;
+				font-size: 16px;
+				font-style: normal;
+				font-weight: 300;
+				line-height: 28px;
+				width: 650px;
+				z-index: 10;
+
+				@include breakpoint (max-xl) {
+					width: unset;
+				}
+			}
+
+		}
+	}
+
+	.service-detail-wrapper-form {
+		padding: 25px;
+		border-radius: 20px;
+		background: rgba(80, 59, 164, 0.20);
+		box-shadow: 0px 4px 4px 0px rgba(9, 16, 81, 0.25);
+
+		@include breakpoint (max-xl) {
+			width: 50%;
+		}
+
+		@include breakpoint (max-md) {
+			width: 100%;
+		}
+
+		h3 {
+			color: #FFF;
+			font-size: 30px;
+			font-style: normal;
+			font-weight: 300;
+			line-height: normal;
+
+			span {
+				color: #FFF;
+				font-size: 30px;
+				font-style: normal;
+				font-weight: 600;
+				line-height: normal;
+			}
+		}
+
+		.cst-input {
+			padding: 16px;
+			border-radius: 10px;
+			border-color: transparent;
+			background: #ffffff;
+			color: #060606;
+			box-shadow: 0px 5px 14px 0px rgba(8, 15, 52, 0.04);
+			display: block;
+
+			&::placeholder {
+				color: #060606;
+			}
+
+		}
+
+		a {
+			background-color: #543D9A;
+			color: #FFF;
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: normal;
+			padding: 20px;
+			border-radius: 15px;
+			text-align: center;
+			width: 30%;
+			transition: 0.7s;
+
+			&:hover {
+				background-color: #1100ff;
+			}
+		}
+
+	}
+}
