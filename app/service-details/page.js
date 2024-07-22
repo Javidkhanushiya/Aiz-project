@@ -114,7 +114,7 @@ export default function ServiceDetails() {
                         <div className="service-detail-wrapper-main">
                             <div className="service-detail-wrapper-contant">
                                 <h1>PHP Development</h1>
-                                <p>AIZ Infotechs Provides Expert PHP Development Services That Help You Leverage The Optimum Benefit
+                                {/* <p>AIZ Infotechs Provides Expert PHP Development Services That Help You Leverage The Optimum Benefit
                                     Of PHP Web Development In Achieving Enterprise-Level Goals. We Come Second To None When It Comes
                                     To Delivering Highly Functional PHP Solutions Like PHP Application Development, PHP CMS
                                     Development, And More.
@@ -122,7 +122,7 @@ export default function ServiceDetails() {
                                     Introduction. We Have A Team Of Experienced PHP Developers Who Are Enthusiastic About PHP And
                                     Have In-Depth Knowledge Of All Its Versions. Our Team Members Have Extensive Work Experience And
                                     Have Been Satisfying Clients By Creating Unique PHP Solutions Addressing Their Requirements.
-                                </p>
+                                </p> */}
                             </div>
                             {isMobile ? (
                                 <ServiceDetailForm />
@@ -172,12 +172,7 @@ export default function ServiceDetails() {
                                         </SwiperSlide>
                                     ))}
                                 </Swiper>
-                                {/* <div className="d-block d-lg-none mt-4 ">
-                                    <div className="array-button justify-content-center">
-                                        <button className="array-prev"><span>.</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height={'17px'} width={"17px"}><path d="M18.2 273l-17-17 17-17L171.8 85.4l17-17 33.9 33.9-17 17L93.1 232 424 232l24 0 0 48-24 0L93.1 280 205.8 392.6l17 17-33.9 33.9-17-17L18.2 273z" /></svg></button>
-                                        <button className="array-next"><span>.</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height={'17px'} width={"17px"} ><path d="M429.8 273l17-17-17-17L276.2 85.4l-17-17-33.9 33.9 17 17L354.9 232 24 232 0 232l0 48 24 0 330.8 0L242.2 392.6l-17 17 33.9 33.9 17-17L429.8 273z" /></svg></button>
-                                    </div>
-                                </div> */}
+                          
                             </div>
                         ) : (
                             <div className="row">
