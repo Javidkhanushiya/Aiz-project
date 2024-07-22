@@ -10,7 +10,7 @@ const ServiceDetailForm = () => {
 
   return (
     <>
-      <button className="form-button" onClick={toggleModal}>Connect with Us</button>
+      <button className="form-button z-3" onClick={toggleModal}>Connect with Us</button>
 
       {isModalOpen && (
         <div className="modal">

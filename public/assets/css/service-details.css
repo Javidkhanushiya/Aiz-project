@@ -1523,7 +1523,7 @@ span {
 @media (max-width: 767px) {
   .service-detail-wrapper {
     height: unset;
-    padding: 50px 0px;
+    padding: 24px 0px;
     background-image: none;
     background: linear-gradient(262deg, rgba(255, 197, 77, 0.8) -11.99%, rgba(106, 92, 161, 0.8) 29.33%, rgba(46, 19, 152, 0.8) 73.52%);
   }
@@ -1591,7 +1591,7 @@ span {
   font-style: normal;
   font-weight: 600;
   line-height: 28px;
-  margin-bottom: 25px;
+  margin-bottom: 24px;
 }
 .service-detail-wrapper .service-detail-wrapper-main .service-detail-wrapper-contant p {
   color: #FFF;
@@ -2494,7 +2494,7 @@ span {
 }
 @media (max-width: 767px) {
   .technology-section {
-    padding: 30px 0px;
+    padding: 15px 0px;
   }
 }
 .technology-section h2 {
@@ -3327,7 +3327,7 @@ html {
 
 @media (max-width: 767px) {
   .section-padding {
-    padding: 30px 0px;
+    padding: 24px 0px;
   }
 }
 
@@ -3391,7 +3391,7 @@ html {
 }
 @media (max-width: 991px) {
   .footer-widgets-wrapper {
-    padding: 50px 0 70px;
+    padding: 0px 0 25px;
   }
 }
 

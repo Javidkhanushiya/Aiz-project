@@ -10,7 +10,7 @@ import { Swiper, SwiperSlide } from "swiper/react"
 import Accordion1 from "@/components/elements/Accordion1"
 import "/public/assets/css/service-details.css"
 import Tabs from "@/components/sections/Tabs"
-// import ServiceDetailForm from "@/components/elements/ServiceDetailForm";
+import ServiceDetailForm from "@/components/elements/ServiceDetailForm";
 
 const swiperOptions = {
     modules: [Autoplay, Pagination, Navigation],
@@ -51,6 +51,7 @@ export default function ServiceDetails() {
     useEffect(() => {
         const handleResize = () => {
             setIsMobile(window.innerWidth <= 768);
+
         };
 
         handleResize();
@@ -100,6 +101,7 @@ export default function ServiceDetails() {
     return (
         <>
 
+
             <Layout headerStyle={1} footerStyle={5}>
                 <section className="service-detail-wrapper">
                     <div className="bg-1">
@@ -122,17 +124,21 @@ export default function ServiceDetails() {
                                     Have Been Satisfying Clients By Creating Unique PHP Solutions Addressing Their Requirements.
                                 </p>
                             </div>
-                            <div className="service-detail-wrapper-form">
-                                <h2 className="mb-3"> Let’s <span>Connect</span> With Us</h2>
-                                <form action="#" className="row gap-3 mx-0">
-                                    <input type="text" placeholder="Full Name" className="col-12 cst-input" />
-                                    <input type="email" placeholder="Email" className="col-12 cst-input" />
-                                    <input type="text" placeholder="Services" className="col-12 cst-input" />
-                                    <textarea placeholder="Description" className="col-12 cst-input"></textarea>
-                                    <Link href="#">Submit</Link>
-                                </form>
-                            </div>
-                            {/* <ServiceDetailForm /> */}
+                            {isMobile ? (
+                                       <ServiceDetailForm />
+                            ) : (
+                         
+                                <div className="service-detail-wrapper-form">
+                                    <h2 className="mb-3"> Let’s <span>Connect</span> With Us</h2>
+                                    <form action="#" className="row gap-3 mx-0">
+                                        <input type="text" placeholder="Full Name" className="col-12 cst-input" />
+                                        <input type="email" placeholder="Email" className="col-12 cst-input" />
+                                        <input type="text" placeholder="Services" className="col-12 cst-input" />
+                                        <textarea placeholder="Description" className="col-12 cst-input"></textarea>
+                                        <Link href="#">Submit</Link>
+                                    </form>
+                                </div>
+                            )}
                         </div>
                     </div>
                 </section>
@@ -144,10 +150,13 @@ export default function ServiceDetails() {
                             <div>
                                 <Swiper
                                     spaceBetween={16}
-                                    slidesPerView={1}
+                                    slidesPerView={isMobile ? 1 : 3} // Example to change slidesPerView based on screen size
                                     navigation={{ nextEl: ".array-next", prevEl: ".array-prev" }}
-
-                                    modules={[Navigation]}
+                                    modules={[Navigation, Autoplay]}
+                                    autoplay={{
+                                        delay: 3000, // Delay between transitions in milliseconds (3000ms = 3 seconds)
+                                        disableOnInteraction: false, // Continue autoplay after user interactions (e.g., swiping)
+                                    }}
                                 >
                                     {expertiseItems.map((item, index) => (
                                         <SwiperSlide key={index}>
@@ -163,12 +172,12 @@ export default function ServiceDetails() {
                                         </SwiperSlide>
                                     ))}
                                 </Swiper>
-                                <div className="d-block d-lg-none mt-4">
+                                {/* <div className="d-block d-lg-none mt-4 ">
                                     <div className="array-button justify-content-center">
                                         <button className="array-prev"><span>.</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height={'17px'} width={"17px"}><path d="M18.2 273l-17-17 17-17L171.8 85.4l17-17 33.9 33.9-17 17L93.1 232 424 232l24 0 0 48-24 0L93.1 280 205.8 392.6l17 17-33.9 33.9-17-17L18.2 273z" /></svg></button>
                                         <button className="array-next"><span>.</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height={'17px'} width={"17px"} ><path d="M429.8 273l17-17-17-17L276.2 85.4l-17-17-33.9 33.9 17 17L354.9 232 24 232 0 232l0 48 24 0 330.8 0L242.2 392.6l-17 17 33.9 33.9 17-17L429.8 273z" /></svg></button>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         ) : (
                             <div className="row">
@@ -220,7 +229,7 @@ export default function ServiceDetails() {
                                                 IT Business Solutions
                                             </h2>
                                         </div>
-                                        <p className="mt-3 mt-md-0 wow fadeInUp text-center text-xl-start" data-wow-delay=".5s">
+                                        <p className="mt-3 mt-md-0 wow fadeInUp  text-xl-start" data-wow-delay=".5s">
                                             AIZ Infotechs Is One Of The Leading PHP Development Company India That Provides Myriad
                                             PHP Development Services, From Simple PHP Web Development To Complex PHP Database
                                             Integration. We Have A Dedicated PHP Development Team That Continuously Sharpens Its PHP
@@ -338,7 +347,7 @@ export default function ServiceDetails() {
                                     </SwiperSlide>
                                 </Swiper>
                             </div>
-                            <div className="d-block d-lg-none mt-4">
+                            <div className="d-none mt-4">
                                 <div className="array-button justify-content-center">
                                     <button className="array-prev"><span>.</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height={'17px'} width={"17px"}><path d="M18.2 273l-17-17 17-17L171.8 85.4l17-17 33.9 33.9-17 17L93.1 232 424 232l24 0 0 48-24 0L93.1 280 205.8 392.6l17 17-33.9 33.9-17-17L18.2 273z" /></svg></button>
                                     <button className="array-next"><span>.</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height={'17px'} width={"17px"} ><path d="M429.8 273l17-17-17-17L276.2 85.4l-17-17-33.9 33.9 17 17L354.9 232 24 232 0 232l0 48 24 0 330.8 0L242.2 392.6l-17 17 33.9 33.9 17-17L429.8 273z" /></svg></button>
@@ -346,7 +355,7 @@ export default function ServiceDetails() {
                             </div>
                         </div>
                     </div>
-                    <div className="cta-banner-2 pt-5">
+                    <div className="cta-banner-2 pt-5 mt-sm-2">
                         <div className="container">
                             <div className="cta-wrapper-2">
                                 <div className="author-icon">
@@ -372,7 +381,7 @@ export default function ServiceDetails() {
                     </div>
                 </section>
 
-                <section className="work-process-section fix section-padding pt-0">
+                <section className="work-process-section fix section-padding pt-0 d-none d-md-block">
                     <div className="container">
                         <div className="section-title text-center">
                             <span>How IT work</span>
@@ -467,7 +476,7 @@ export default function ServiceDetails() {
                                     We Solve IT Problems <br /> With Technology
                                 </h2>
                             </div>
-                            <Link href="service.html" className="theme-btn wow fadeInUp" data-wow-delay=".5s">
+                            <Link href="service.html" className="theme-btn wow fadeInUp d-none d-block" data-wow-delay=".5s">
                                 See all Services
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height={'17px'} width={"17px"} ><path d="M429.8 273l17-17-17-17L276.2 85.4l-17-17-33.9 33.9 17 17L354.9 232 24 232 0 232l0 48 24 0 330.8 0L242.2 392.6l-17 17 33.9 33.9 17-17L429.8 273z" /></svg>
                             </Link>
@@ -662,7 +671,7 @@ export default function ServiceDetails() {
                     </div>
                 </section>
 
-                <section className="contact-us-section">
+                <section className="contact-us-section d-none d-md-block">
                     <div className="container">
                         <div className="form-div-main row m-0">
                             <div className="form-div-icon d-none d-lg-block col-lg-5 col-xl-4">

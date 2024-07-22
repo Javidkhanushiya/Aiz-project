@@ -60,7 +60,7 @@ export default function MobileMenu() {
                                     <li><Link href="/faq">Faq's</Link></li>
                                     <li><Link href="/error">404 Page</Link></li>
                                 </ul>
-                                <button type="button" className={`mean-expand ${activeItem === 3 ? "mean-clicked" : ""}`} onClick={() => handleActiveItem(3)}  aria-expanded={activeItem === 2} aria-controls="dropdown-content" aria-label="Expand or collapse dropdown">
+                                <button type="button" className={`mean-expand ${activeItem === 3 ? "mean-clicked" : ""}`} onClick={() => handleActiveItem(3)} aria-expanded={activeItem === 2} aria-controls="dropdown-content" aria-label="Expand or collapse dropdown">
                                     <i className="far fa-plus" />
                                 </button>
                             </li>
