@@ -159,10 +159,12 @@ export default function ServiceDetails() {
                         {isMobile ? (
                             <div>
                                 <Swiper
-                                    spaceBetween={16}
+                                    spaceBetween={30}
                                     slidesPerView={isMobile ? 1 : 3} 
                                     navigation={{ nextEl: ".array-next", prevEl: ".array-prev" }}
                                     modules={[Navigation, Autoplay]}
+                                    loop= {true}
+                                    speed={1500}
                                     autoplay={{
                                         delay: 3000, 
                                         disableOnInteraction: false, 
