@@ -62,9 +62,9 @@ export default function Testimonial4() {
                                         <Swiper {...swiperOptions} className="swiper-wrapper">
                                             <SwiperSlide>
                                                 <div className="tesimonial-card-items">
-                                                    {/* <div className="icon">
+                                                    <div className="icon">
                                                         <img loading="lazy" src="/assets/img/testimonial/quote.svg" alt="img" />
-                                                    </div> */}
+                                                    </div>
                                                     <div className="star">
                                                         <i className="fas fa-star" />
                                                         <i className="fas fa-star" />
@@ -88,9 +88,9 @@ export default function Testimonial4() {
                                             </SwiperSlide>
                                             <SwiperSlide>
                                                 <div className="tesimonial-card-items">
-                                                    {/* <div className="icon">
+                                                    <div className="icon">
                                                         <img loading="lazy" src="/assets/img/testimonial/quote.svg" alt="img" />
-                                                    </div> */}
+                                                    </div>
                                                     <div className="star">
                                                         <i className="fas fa-star" />
                                                         <i className="fas fa-star" />
@@ -114,9 +114,9 @@ export default function Testimonial4() {
                                             </SwiperSlide>
                                             <SwiperSlide>
                                                 <div className="tesimonial-card-items">
-                                                    {/* <div className="icon">
+                                                    <div className="icon">
                                                         <img loading="lazy" src="/assets/img/testimonial/quote.svg" alt="img" />
-                                                    </div> */}
+                                                    </div>
                                                     <div className="star">
                                                         <i className="fas fa-star" />
                                                         <i className="fas fa-star" />
@@ -128,9 +128,9 @@ export default function Testimonial4() {
                                                         when an unknown printer took away galley of type aawer awtnd there are scrambled it to make a type many  but also the leap into
                                                     </p>
                                                     <div className="client-info-items">
-                                                        {/* <div className="thumb">
+                                                        <div className="thumb">
                                                             <img loading="lazy" src="/assets/img/testimonial/07.jpg" alt="img" />
-                                                        </div> */}
+                                                        </div>
                                                         <div className="content">
                                                             <h4>Brooklyn Simmons</h4>
                                                             <p>Nursing</p>
@@ -140,9 +140,9 @@ export default function Testimonial4() {
                                             </SwiperSlide>
                                             <SwiperSlide>
                                                 <div className="tesimonial-card-items">
-                                                    {/* <div className="icon">
+                                                    <div className="icon">
                                                         <img loading="lazy" src="/assets/img/testimonial/quote.svg" alt="img" />
-                                                    </div> */}
+                                                    </div>
                                                     <div className="star">
                                                         <i className="fas fa-star" />
                                                         <i className="fas fa-star" />

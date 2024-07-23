@@ -61,7 +61,7 @@ export default function News5() {
                             <SwiperSlide>
                                 <div className="news-card-items style-2">
                                     <div className="news-image">
-                                        {/* <img loading="lazy" src="/assets/img/news/04.jpg" alt="news-img" /> */}
+                                        <img loading="lazy" src="/assets/img/news/04.jpg" alt="news-img" />
                                         <div className="post-date">
                                             <h3>
                                                 17 <br />
@@ -83,7 +83,7 @@ export default function News5() {
                             <SwiperSlide>
                                 <div className="news-card-items style-2">
                                     <div className="news-image">
-                                        {/* <img loading="lazy" src="/assets/img/news/07.jpg" alt="news-img" /> */}
+                                        <img loading="lazy" src="/assets/img/news/07.jpg" alt="news-img" />
                                         <div className="post-date">
                                             <h3>
                                                 20 <br />
@@ -105,7 +105,7 @@ export default function News5() {
                             <SwiperSlide>
                                 <div className="news-card-items style-2">
                                     <div className="news-image">
-                                        {/* <img loading="lazy" src="/assets/img/news/08.jpg" alt="news-img" /> */}
+                                        <img loading="lazy" src="/assets/img/news/08.jpg" alt="news-img" />
                                         <div className="post-date">
                                             <h3>
                                                 10 <br />
@@ -127,7 +127,7 @@ export default function News5() {
                             <SwiperSlide>
                                 <div className="news-card-items style-2">
                                     <div className="news-image">
-                                        {/* <img loading="lazy" src="/assets/img/news/08.jpg" alt="news-img" /> */}
+                                        <img loading="lazy" src="/assets/img/news/08.jpg" alt="news-img" />
                                         <div className="post-date">
                                             <h3>
                                                 10 <br />
