@@ -48,7 +48,7 @@ export default function ProjectSlider1({ showDots }) {
                     <SwiperSlide>
                         <div className="project-items">
                             <div className="project-image">
-                                <img loading="lazy" src="/assets/img/project/01.jpg" alt="project-img" />
+                                {/* <img loading="lazy" src="/assets/img/project/01.jpg" alt="project-img" /> */}
                                 <div className="project-content">
                                     <p>Technology</p>
                                     <h4>
@@ -64,7 +64,7 @@ export default function ProjectSlider1({ showDots }) {
                     <SwiperSlide>
                         <div className="project-items">
                             <div className="project-image">
-                                <img loading="lazy" src="/assets/img/project/02.jpg" alt="project-img" />
+                                {/* <img loading="lazy" src="/assets/img/project/02.jpg" alt="project-img" /> */}
                                 <div className="project-content">
                                     <p>Security</p>
                                     <h4>
@@ -80,7 +80,7 @@ export default function ProjectSlider1({ showDots }) {
                     <SwiperSlide>
                         <div className="project-items">
                             <div className="project-image">
-                                <img loading="lazy" src="/assets/img/project/03.jpg" alt="project-img" />
+                                {/* <img loading="lazy" src="/assets/img/project/03.jpg" alt="project-img" /> */}
                                 <div className="project-content">
                                     <p>Solution</p>
                                     <h4>
@@ -96,7 +96,7 @@ export default function ProjectSlider1({ showDots }) {
                     <SwiperSlide>
                         <div className="project-items">
                             <div className="project-image">
-                                <img loading="lazy" src="/assets/img/project/04.jpg" alt="project-img" />
+                                {/* <img loading="lazy" src="/assets/img/project/04.jpg" alt="project-img" /> */}
                                 <div className="project-content">
                                     <p>Technology</p>
                                     <h4>
@@ -112,7 +112,7 @@ export default function ProjectSlider1({ showDots }) {
                     <SwiperSlide>
                         <div className="project-items">
                             <div className="project-image">
-                                <img loading="lazy" src="/assets/img/project/03.jpg" alt="project-img" />
+                                {/* <img loading="lazy" src="/assets/img/project/03.jpg" alt="project-img" /> */}
                                 <div className="project-content">
                                     <p>Solution</p>
                                     <h4>
@@ -128,7 +128,7 @@ export default function ProjectSlider1({ showDots }) {
                     <SwiperSlide>
                         <div className="project-items">
                             <div className="project-image">
-                                <img loading="lazy" src="/assets/img/project/04.jpg" alt="project-img" />
+                                {/* <img loading="lazy" src="/assets/img/project/04.jpg" alt="project-img" /> */}
                                 <div className="project-content">
                                     <p>Technology</p>
                                     <h4>

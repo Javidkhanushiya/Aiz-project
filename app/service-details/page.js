@@ -489,9 +489,9 @@ export default function ServiceDetails() {
                             <Swiper {...swiperOptions} className="swiper-wrapper">
                                 <SwiperSlide>
                                     <div className="service-card-items mt-0">
-                                        <div className="service-image">
+                                        {/* <div className="service-image">
                                             <img loading="lazy" src="/assets/img/service/02.jpg" alt="service-img" />
-                                        </div>
+                                        </div> */}
                                         <div className="icon-2">
                                             <img loading="lazy" src="/assets/img/service/icon/s-icon-1.svg" alt="img" />
                                         </div>
@@ -514,9 +514,9 @@ export default function ServiceDetails() {
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div className="service-card-items mt-0">
-                                        <div className="service-image">
+                                        {/* <div className="service-image">
                                             <img loading="lazy" src="/assets/img/service/03.jpg" alt="service-img" />
-                                        </div>
+                                        </div> */}
                                         <div className="icon-2">
                                             <img loading="lazy" src="/assets/img/service/icon/s-icon-2.svg" alt="img" />
                                         </div>
@@ -539,9 +539,9 @@ export default function ServiceDetails() {
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div className="service-card-items mt-0">
-                                        <div className="service-image">
+                                        {/* <div className="service-image">
                                             <img loading="lazy" src="/assets/img/service/04.jpg" alt="service-img" />
-                                        </div>
+                                        </div> */}
                                         <div className="icon-2">
                                             <img loading="lazy" src="/assets/img/service/icon/s-icon-4.svg" alt="img" />
                                         </div>
@@ -564,9 +564,9 @@ export default function ServiceDetails() {
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div className="service-card-items mt-0">
-                                        <div className="service-image">
+                                        {/* <div className="service-image">
                                             <img loading="lazy" src="/assets/img/service/05.jpg" alt="service-img" />
-                                        </div>
+                                        </div> */}
                                         <div className="icon-2">
                                             <img loading="lazy" src="/assets/img/service/icon/s-icon-3.svg" alt="img" />
                                         </div>
@@ -589,9 +589,9 @@ export default function ServiceDetails() {
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div className="service-card-items mt-0">
-                                        <div className="service-image">
+                                        {/* <div className="service-image">
                                             <img loading="lazy" src="/assets/img/service/02.jpg" alt="service-img" />
-                                        </div>
+                                        </div> */}
                                         <div className="icon-2">
                                             <img loading="lazy" src="/assets/img/service/icon/s-icon-1.svg" alt="img" />
                                         </div>
