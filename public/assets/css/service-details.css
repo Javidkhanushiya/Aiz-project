@@ -1572,7 +1572,7 @@ span {
 @media (max-width: 767px) {
   .service-detail-wrapper .service-detail-wrapper-main {
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 14px;
   }
 }
 @media (max-width: 1199px) {
@@ -1584,6 +1584,10 @@ span {
   .service-detail-wrapper .service-detail-wrapper-main .service-detail-wrapper-contant {
     width: 100%;
   }
+.service-detail-wrapper .service-detail-wrapper-main .service-detail-wrapper-contant h1 {
+  margin-bottom: 14px !important;
+}
+
 }
 .service-detail-wrapper .service-detail-wrapper-main .service-detail-wrapper-contant h1 {
   color: #FFF;
